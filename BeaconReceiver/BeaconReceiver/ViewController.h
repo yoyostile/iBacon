@@ -14,5 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 @property (strong, nonatomic) CLBeaconRegion *myBeaconRegion;
 @property (strong, nonatomic) CLLocationManager *locationManager;
+@property (weak, nonatomic) IBOutlet UITextField *uuidField;
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
 
 @end
